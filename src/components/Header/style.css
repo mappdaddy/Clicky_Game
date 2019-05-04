@@ -1,0 +1,20 @@
+.height100 {
+  height: 100px;
+}
+
+.instruct {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(68, 1, 65)
+}
+
+.status {
+  font-size: 45px;
+  font-weight: 900;
+  color: rgb(157, 2, 247)
+}
+
+.scoreTopScore {
+  font-size: 25px;
+  color:rgb(68, 1, 65)
+}

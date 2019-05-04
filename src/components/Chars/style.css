@@ -1,0 +1,32 @@
+.card {
+  background: rgb(202, 3, 202);
+  border-radius: 4px;
+  height: 150px;
+  margin: 1rem;
+  position: relative;
+  width: 150px;
+  box-shadow: 0 4px 10px #999, 0 3px 6px #999;
+  text-align: left;
+}
+
+.card>.imgs{
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  background: rgb(68, 1, 65);
+  vertical-align: middle;
+  transition: transform .1s;
+}
+
+.card>.imgs>img {
+  width: 100%
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.imgs:hover {
+  transform: scale(1.3);
+
+}
